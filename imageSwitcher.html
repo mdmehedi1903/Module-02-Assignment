@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+
+    <img id="myImages" src="https://freelancermehedi.me/wp-content/uploads/2023/07/wordpress-business-portfolio-website-design-by-plaby-theme.png">
+    <br>
+    <button onclick="chnIMG('https://freelancermehedi.me/wp-content/uploads/2023/07/wordpress-business-portfolio-website-design-by-plaby-theme.png')">First Image </button>
+    <button onclick="chnIMG('https://freelancermehedi.me/wp-content/uploads/2023/07/HTML-Single-Website-usgin-HTML-css-Template.png')">Second Image </button>
+
+    <script>
+        const myImg = document.getElementById('myImages');
+
+        function chnIMG(imageUrl) {
+            myImg.src = imageUrl;
+        }
+    </script>
+
+
+
+</body>
+</html>

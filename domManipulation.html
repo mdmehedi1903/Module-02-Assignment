@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1> Alternative: 01 </h1>
+    <button onclick="onClicks('How are you?')">Click Me</button>
+    <div id="myIdss">Hello Div!</div>
+    <br>
+    
+    <script>
+    function onClicks(mytext){
+        document.getElementById('myIdss').innerHTML = mytext;
+    }
+    </script> 
+    
+<br>
+<br>
+<h1> Alternative: 02 </h1>
+    <button onclick="domMan()">Click Me</button>
+    <div id="myName">Change Content</div>
+    <script>
+    
+    function domMan(){
+        document.querySelector('#myName').innerHTML='<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg/220px-Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg">';
+    }
+    
+    </script> 
+    
+
+
+
+
+</body>
+</html>
+
+
+
